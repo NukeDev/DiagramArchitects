@@ -153,7 +153,7 @@ jQuery(function ($) {
 	(function () {
 		var win = $(window),
 			foo = $('#typer');
-		foo.typer(["Inroducing The World's Best", "Get New Idea's - New Concept", "Build Your Dream With"]);
+		foo.typer(["Introducing The World's Best", "Get New Idea's - New Concept", "Build Your Dream With"]);
 		foo = $('#promotion h1');
 		foo.typer(["Want to Work with Us?", "Make your dreams come true"]);	
 	}());

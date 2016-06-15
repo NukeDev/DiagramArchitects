@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .section-title h1 {
 	font-size:18px;
-	font-weight:900;
+	font-weight:908;
 	color:#363636;
 	margin-bottom:0;
 	text-transform:uppercase;
@@ -143,7 +143,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size:36px;
 	text-transform:uppercase;
 	color:#e71647;
-	font-weight:900;
+	font-weight:908;
 	margin-top:0;
 	line-height:46px;
 } 
@@ -347,7 +347,7 @@ textarea.form-control {
 #navigation{
 	position:absolute;
 	width:100%;
-	z-index:1000;
+	z-index:908;
 }
 
 .navbar-fixed-top, #page .navbar {
@@ -415,11 +415,21 @@ textarea.form-control {
 .navbar-fixed-top .main-logo, 
 #page .main-logo  {
 	display:none;
+	position:fixed;
+    left:0;
+    top:0;
+    width:250px;
+    z-index:908;
 }
 
 .navbar-fixed-top .logo-two, 
 #page .logo-two {
-	display:block;
+	display:none;
+	position:fixed;
+    left:0;
+    top:0;
+    width:250px;
+    z-index:908;
 }
 
 #navigation .navbar-right {
@@ -459,7 +469,7 @@ textarea.form-control {
 }
 
 /*Responsive Navbar*/
-@media (max-width: 999px) {
+@media (min-width: 1px) {
 	.navbar-nav .open .dropdown-menu {
 		border: 0;
 		float: none;
@@ -570,7 +580,7 @@ textarea.form-control {
 
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 908px) {
 	/*Navbar Collapse*/
 	#navigation .navbar-collapse {
 		padding: 0;
@@ -660,7 +670,7 @@ textarea.form-control {
 	font-family: FontAwesome;
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 1px) {
 	.dropdown-submenu > a:after {
 	  content: " ";
 	}
@@ -688,7 +698,7 @@ textarea.form-control {
 	display: block;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 908px) {
 	.dropdown-submenu > .dropdown-menu {  
 		display: block;
 		margin-left: 15px;
@@ -811,7 +821,7 @@ textarea.form-control {
 =========home-section=========
 ================================*/
 #home-section {
-	height:650px;
+	height:908px;
 	background-color:#CD3057;
 	background-image:url(../images/home/banner.jpg);
 	background-repeat:no-repeat;
@@ -834,7 +844,7 @@ textarea.form-control {
 	background-color: #fff;
 	color: #a81c47;
 	margin-bottom:0;
-	font-weight: 900;
+	font-weight: 908;
 	display: inline-block;
 	padding: 6px 45px;
 	font-family: 'Roboto', sans-serif;
@@ -887,8 +897,8 @@ textarea.form-control {
 }
 
 #home-section-slider .item {
-	height:650px;
-	background-repeat:no-repeat;
+	height:908px;
+	background-repeat:repeat;
 	background-size:cover;
 }
 
@@ -940,7 +950,7 @@ textarea.form-control {
 
 .item-three .container {
 	position:relative;
-	height:650px;
+	height:908px;
 }
 
 .item-three .section-content {
@@ -959,7 +969,7 @@ textarea.form-control {
 .item-three .home-content h2, 
 .item-four .home-content h2 {
 	font-size:90px;
-	font-weight:800;
+	font-weight:908;
 }
 
 .item-three .quick-reg {
@@ -1123,7 +1133,7 @@ textarea.form-control {
 
 .item-five .slider-content h1, 
 .item-five .slider-content h2 {
-	font-weight:800;
+	font-weight:908;
 	text-transform:uppercase;
 }
 
@@ -1142,7 +1152,7 @@ textarea.form-control {
 	position:absolute;
 	left:0;
 	top:0;
-	font-weight:800;
+	font-weight:908;
 }
 
 
@@ -1338,7 +1348,7 @@ textarea.form-control {
 	color:#eb444a;
 	display:inline-block;
 	margin-top:10px;
-	font-weight:900;
+	font-weight:908;
 }
 
 .welcome-content .welcome-info a:hover{
@@ -1542,7 +1552,7 @@ textarea.form-control {
 
 .fun-facts h1{
 	font-size:48px;
-	font-weight:800;
+	font-weight:908;
 	margin-bottom:5px;
 }
 
@@ -1644,7 +1654,7 @@ textarea.form-control {
 }
 
 #twitter-carousel {
-	max-width:800px;
+	max-width:908px;
 	display:inline-block;
 }
 
@@ -1855,7 +1865,7 @@ textarea.form-control {
 }
 
 #footer-bottom a {
-	font-weight:800;
+	font-weight:908;
 	color:#000;
 }
 
@@ -3265,7 +3275,7 @@ img.mfp-img {
 }
 
 .coming-soon-content h2 span {
-	font-weight:800;
+	font-weight:908;
 }
 
 #countdown {
@@ -3291,7 +3301,7 @@ img.mfp-img {
 
 #countdown ul li span {
 	font-size:45px;
-	font-weight:800;
+	font-weight:908;
 }
 
 .coming-soon a {
@@ -3347,14 +3357,14 @@ img.mfp-img {
 }
 .error-page-content h1{
 	font-size:60px;
-	font-weight:800;
+	font-weight:908;
 	margin-bottom:0;
 	color:#ed1c24;
 }
 .error-page-content h2 {
 	font-size:20px;
 	margin-bottom:15px;
-	font-weight:800;
+	font-weight:908;
 	margin-top:0;
 }
 
