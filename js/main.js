@@ -49,16 +49,9 @@ jQuery(function ($) {
 		function menuToggle(){
 			var windowWidth = $(window).width();
 			if(windowWidth > 767 ){
-				$(window).on('scroll', function(){
-					if( $(window).scrollTop()>60 ){
-						$('.navbar').addClass('navbar-fixed-top');
-					} else {
-						$('.navbar').removeClass('navbar-fixed-top');
-					};
-					if( $(window)){
-						$('#home-three .navbar').addClass('navbar-fixed-top');
-					} 
-				});
+				
+				$('.navbar').addClass('navbar-fixed-top');
+				
 			}else{
 				
 				$('.navbar').addClass('navbar-fixed-top');
