@@ -259,7 +259,7 @@ textarea.form-control {
 }
 
 .navbar-toggle {
-	margin-top: 28px;
+	margin-top: 9px;
 	margin-right: 60px;
 }
 
@@ -537,7 +537,7 @@ a:visited {
 	#navigation .navbar-header {
 		position: fixed;
 		left: 0;
-		top: 50px;
+		top: 0;
 		right: 0;
 	}
 	
@@ -620,7 +620,7 @@ a:visited {
 	#navigation .navbar-nav {
 		position: fixed;
 		width: 700px;
-		top: 37px;
+		top: -30px;
 		right: 0;
 	}
 	
