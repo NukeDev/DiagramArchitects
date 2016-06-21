@@ -1404,7 +1404,7 @@ a:visited {
 #project-list,
 #architect {
 	background-color: #EAEAEA;
-	background-image: url(../images/project/project-bg.jpg);
+	background-image: url(../images/back.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -1416,7 +1416,7 @@ a:visited {
 .project-content .project-title,
 .project-content .project-info {
 	padding: 20px 20px 15px;
-	background-color: #FFF;
+	background-color: rgba(255, 255, 255, 0.4);
 	border: 1px solid #D7D7D7;
 	border-bottom: 0;
 	box-shadow: 0 0 3px 1px #D7D7D7;
