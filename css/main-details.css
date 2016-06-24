@@ -404,7 +404,7 @@ textarea.form-control {
 
 a:link,
 a:visited {
-	color: #EEE;
+	color: #000;
 }
 
 .blur {
@@ -3113,11 +3113,6 @@ a:visited {
 /*Magnific-popup overwrite CSS*/
 .mfp-figure {
 	background-color: #FFF;
-}
-
-
-iframe {
-    border: none;
 }
 
 img.mfp-img {
