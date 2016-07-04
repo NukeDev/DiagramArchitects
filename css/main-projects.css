@@ -269,12 +269,12 @@ textarea.form-control {
 
 #page .navbar-toggle,
 .navbar-fixed-top .navbar-toggle {
-	border: 1px solid #ff5016
+	border: 1px solid #ffffff;
 }
 
 #page .navbar-toggle .icon-bar,
 .navbar-fixed-top .navbar-toggle .icon-bar {
-	background-color: #ff5016;
+	background-color: #ffffff;
 }
 
 .image-bg {
@@ -351,8 +351,7 @@ textarea.form-control {
 
 .navbar-fixed-top,
 #page .navbar {
-	background-color: rgba(255, 255, 255, 0.4);
-	box-shadow: 0px 0px 5px 1px rgba(255,80,22,0.50);
+	background-color: rgba(115, 109, 109, 0.7);
 	webkit-box-shadow:0px 0px 5px 2px #e8e8e8;
 	-webkit-transition: all 0.5s ease-in-out;
 	-moz-transition: all 0.5s ease-in-out;
@@ -1403,8 +1402,8 @@ a:visited {
 #recent-projects,
 #project-list,
 #architect {
-	background-color: #EAEAEA;
-	background-image: url(../images/back.jpg);
+	background-color: rgb(152, 152, 152);
+
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -1886,17 +1885,16 @@ a:visited {
 	bottom: 0;
 	left: 0;
 	padding: 1rem;
-	background-color: rgba(255, 255, 255, 0.4);
-	color: #000;
+	background-color: rgba(115, 109, 109, 0.7);
+	color: #fff;
 	padding: 9px 0 4px;
-	box-shadow: 0px 0px 5px 1px rgba(255,80,22,0.50);
 	font-weight: bold;
 	text-align: center;
 }
 
 #footer-bottom a {
 	font-weight:908;
-	color: #000;
+	color: #fff;
 }
 
 #page #footer {

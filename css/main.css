@@ -259,7 +259,7 @@ textarea.form-control {
 }
 
 .navbar-toggle {
-	margin-top: 28px;
+	margin-top: -1px;
 	margin-right: 60px;
 }
 
@@ -269,12 +269,12 @@ textarea.form-control {
 
 #page .navbar-toggle,
 .navbar-fixed-top .navbar-toggle {
-	border: 1px solid #ff5016
+	border: 1px solid #fff
 }
 
 #page .navbar-toggle .icon-bar,
 .navbar-fixed-top .navbar-toggle .icon-bar {
-	background-color: #ff5016;
+	background-color: #fffff;
 }
 
 .image-bg {
@@ -351,8 +351,7 @@ textarea.form-control {
 
 .navbar-fixed-top,
 #page .navbar {
-	background-color: rgba(255, 255, 255, 0.4);
-	box-shadow: 0px 0px 5px 1px rgba(255,80,22,0.50);
+	background-color: rgba(115, 109, 109, 0.3);
 	webkit-box-shadow:0px 0px 5px 2px #e8e8e8;
 	-webkit-transition: all 0.5s ease-in-out;
 	-moz-transition: all 0.5s ease-in-out;
@@ -384,7 +383,7 @@ textarea.form-control {
 
 #navigation .navbar-fixed-top .navbar-right li a,
 #page #navigation .navbar .navbar-right li a {
-	color: #000;
+	color: #fff;
 	line-height: 5px;
 }
 
@@ -412,7 +411,7 @@ a:visited {
 }
 
 .navbar-brand {
-	display: block;
+	display: inline;
 	height: 200px;
 	position: absolute;
 	overflow: hidden;
@@ -473,7 +472,7 @@ a:visited {
 
 /*Dropdown Menu CSS*/
 .dropdown-menu {
-	background-color: #FFF;
+	background-color: rgba(115, 109, 109, 0.3);
 }
 
 #navigation .navbar-collapse {
@@ -551,7 +550,7 @@ a:visited {
 	}
 	
 	#navigation .navbar-toggle {
-		display: block;
+		display: inline;
 	}
 	
 	#navigation .navbar-collapse.collapse {
@@ -594,7 +593,7 @@ a:visited {
 	}
 	
 	#navigation .navbar-fixed-top .navbar-right li.active > a {
-		color: #000;
+		color: #fff;
 	}
 	
 	#navigation .dropdown-submenu li a {
@@ -603,6 +602,10 @@ a:visited {
 	
 	#navigation .navbar-right .dropdown-menu > li > a {
 		padding: 10px 20px;
+		position: relative;
+		width: 100%;
+		height: 100%;
+		top: -40px;
 	}
 	
 	#navigation .navbar-right .dropdown-submenu > .dropdown-menu a {
@@ -620,7 +623,7 @@ a:visited {
 	#navigation .navbar-nav {
 		position: fixed;
 		width: 700px;
-		top: 37px;
+		top: 8px;
 		right: 0;
 	}
 	
@@ -642,7 +645,7 @@ a:visited {
 	#navigation .dropdown-menu {
 		padding: 0;
 		border: none;
-		min-width: 200px;
+		min-width: 20px;
 		border-radius: 0;
 		z-index: 9999 !important;
 		margin-top: -2px !important;
@@ -674,7 +677,7 @@ a:visited {
 	}
 	
 	#navigation .navbar-nav > li.dropdown:hover > .dropdown-menu {
-		display: block;
+		display: inline;
 	}
 	
 	#navigation .open > .dropdown-menu,
@@ -724,12 +727,12 @@ a:visited {
 }
 
 .dropdown-submenu:hover > .dropdown-menu {
-	display: block;
+	display: inline;
 }
 
 @media (max-width: 908px) {
 	.dropdown-submenu > .dropdown-menu {
-		display: block;
+		display: inline;
 		margin-left: 15px;
 	}
 }
@@ -758,7 +761,7 @@ a:visited {
 	width: 1.5625em;
 }
 
-/*Dropdown Show*/
+/*Dropdown Show*/ 
 .dropdown-show {
 	position: relative;
 	display: inline-block;
@@ -802,7 +805,7 @@ a:visited {
 }
 
 .search.search-toggle {
-	display: block;
+	display: inline;
 }
 
 .search {
@@ -888,7 +891,7 @@ a:visited {
 }
 
 .home-content .scroll-arrow {
-	display: block;
+	display: inline;
 }
 
 .home-content .scroll-arrow a {
@@ -1403,7 +1406,7 @@ a:visited {
 #recent-projects,
 #project-list,
 #architect {
-	background-color: #EAEAEA;
+	background-color: rgb(152, 152, 152);
 	background-image: url(../images/project/project-bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1610,7 +1613,7 @@ a:visited {
 
 .entry-content .entry-thumb {
 	position: relative;
-	display: block;
+	display: inline;
 	overflow: hidden;
 }
 
@@ -1786,7 +1789,7 @@ a:visited {
 ========Footer CSS=======
 ==========================*/
 .footer-widget .logo {
-	display: block;
+	display: inline;
 	margin-bottom: 25px;
 }
 
@@ -1886,17 +1889,16 @@ a:visited {
 	bottom: 0;
 	left: 0;
 	padding: 1rem;
-	background-color: rgba(255, 255, 255, 0.4);
-	color: #000;
+	background-color: rgba(115, 109, 109, 0.3);
+	color: #fff;
 	padding: 9px 0 4px;
-	box-shadow: 0px 0px 5px 1px rgba(255,80,22,0.50);
 	font-weight: bold;
 	text-align: center;
 }
 
 #footer-bottom a {
 	font-weight:908;
-	color: #000;
+	color: #fff;
 }
 
 #page #footer {
@@ -2094,7 +2096,7 @@ a:visited {
 	top: 50%;
 	left: 50%;
 	z-index: 2;
-	display: block;
+	display: inline;
 	content: "";
 	width: 0;
 	height: 0;
@@ -2222,7 +2224,7 @@ a:visited {
 
 .feature-image a {
 	position: relative;
-	display: block;
+	display: inline;
 }
 
 .feature-image a:after {
@@ -2230,7 +2232,7 @@ a:visited {
 	content: "";
 	top: 50%;
 	left: 50%;
-	display: block;
+	display: inline;
 	width: 0;
 	height: 0;
 	border-radius: 100%;
@@ -2477,7 +2479,7 @@ a:visited {
 	text-transform: uppercase;
 	font-weight: 700;
 	padding: 8px;
-	display: block;
+	display: inline;
 }
 
 .project-filter ul li a:hover,
@@ -2619,7 +2621,7 @@ a:visited {
 
 .architect-info .social-icons a {
 	color: #545454;
-	display: block;
+	display: inline;
 	margin-right: 5px;
 }
 
@@ -2729,7 +2731,7 @@ a:visited {
 	border-radius: 50%;
 	background-color: transparent;
 	color: #000;
-	display: block;
+	display: inline;
 }
 
 .pagination-section .blog-pagination li:first-child a,
@@ -2882,7 +2884,7 @@ a:visited {
 
 .widget ul li a {
 	color: #000000;
-	display: block;
+	display: inline;
 	text-decoration: none;
 	padding: 5px 20px 5px 40px;
 	-webkit-transition: all .05s ease-in;
@@ -3013,7 +3015,7 @@ a:visited {
 }
 
 .author-section .author-image .social-icons li a {
-	display: block;
+	display: inline;
 	background-color: #F2F2F2;
 	color: #EA0F42;
 	font-size: 16px;
@@ -3236,7 +3238,7 @@ img.mfp-img {
 
 .fontawesome-icon-list .fa-hover a {
 	color: #555;
-	display: block;
+	display: inline;
 	margin-bottom: 15px;
 }
 

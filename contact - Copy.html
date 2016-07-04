@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="css/1/bootstrap.min.css" rel="stylesheet">
+<link href="css/1/custom_matt.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown"><a href="about.html" class="dropdown-toggle" id="aboutus" data-toggle="dropdown">About Us</a>
+          <ul class="dropdown-menu" id="aboutus">
+            <li><a href="team.html">Team</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a href="whatwedo.html" class="dropdown-toggle" id="what" data-toggle="dropdown">What we do</a>
+          <ul class="dropdown-menu" id="whatwedo">
+            <li><a href="architecture.html">Architecture</a></li>
+            <li><a href="design.html">Interior</a></li>
+            <li><a href="construction.html">Construction</a></li>
+            <li><a href="management.html">Management</a></li>
+          </ul>
+        </li>
+         <li class="dropdown"><a href="work.html" class="dropdown-toggle" id="about" data-toggle="dropdown">Our Work</a>
+          <ul class="dropdown-menu" id="ourwork">
+            <li><a href="residential.html">Residential</a></li>
+            <li><a href="commercial.html">Commercial</a></li>
+            <li><a href="urban.html">Urban</a></li>
+            <li><a href="furniture.html">Furniture</a></li>
+          </ul>
+        </li>
+        <li class="dropdown"><a href="#" class="dropdown-toggle" id="about" data-toggle="dropdown">Soloarte</a>
+          <ul class="dropdown-menu" id="solo">
+            <li><a href="">Magazine</a></li>
+            <li><a href="">Gallery</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse --> 
+  <!-- /.container --> 
+</nav>
+
+<!-- jQuery Version 1.11.0 --> 
+<script src="js/jquery.js"></script> 
+
+<!-- Bootstrap Core JavaScript --> 
+<script src="js/bootstrap.min.js"></script> 
+
+<script type="text/javascript">			
+			var dropdownHidingTimeoutHandler;
+
+			$('.dropdown').on('mouseenter', function() {
+				var $this = $(this);
+				clearTimeout(dropdownHidingTimeoutHandler);
+				if (!$this.hasClass('open')) {
+					$('.dropdown-toggle', $this).dropdown('toggle');
+				}
+			});
+			
+			$('.dropdown').on('mouseleave', function() {
+				var $this = $(this);
+				dropdownHidingTimeoutHandler = setTimeout(function() {
+					if ($this.hasClass('open')) {
+						$('.dropdown-toggle', $this).dropdown('toggle');
+					}
+				}, 150);
+			});
+    </script> 
+<script type="text/javascript">
+			$("#about").click(function(){
+		window.location.href="work.html";
+	});
+		$("#what").click(function(){
+		window.location.href="whatwedo.html";
+	});
+	$("#aboutus").click(function(){
+		window.location.href="about.html";
+	});
+		</script> 
+<script type="text/javascript">
+	 	$(document).ready(function(){$("body").hide().fadeIn(1000);});
+	 </script>
+</body>
+</html>

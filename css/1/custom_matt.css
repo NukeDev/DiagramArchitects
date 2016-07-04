@@ -1,0 +1,181 @@
+
+
+.novbar {
+    position: relative;
+    min-height: 60px;
+    margin-bottom: 12px;
+    border: 1px solid transparent;
+}
+
+.novbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+
+
+.novbar-brand {
+    float: left;
+    height: 60px;
+    padding: 10px 15px 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+
+.novbar-inverse .novbar-nav > li > a {
+    color: #000;
+}
+
+.novbar-inverse .novbar-nav > li > a:hover, .novbar-inverse .novbar-nav > li > a:focus {
+    color: #fe5013;
+    text-decoration: none;
+    outline: none;
+}
+
+.novbar-right {
+    margin-top: 36px;
+}
+
+
+
+
+
+.novbar-toggle {
+    position: relative;
+    float: right;
+    padding: 7px 5px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: #ff5015;
+    background-image: none;
+    border: 1px solid #fff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.novbar-inverse .novbar-toggle {
+    border-color: #ff5015;
+}
+
+.novbar-inverse .novbar-toggle:hover, .novbar-inverse .novbar-toggle:focus {
+    background-color: #ec450b;
+}
+
+
+.novbar-inverse .novbar-nav > .open > a, .novbar-inverse .novbar-nav > .open > a:hover, .novbar-inverse .novbar-nav > .open > a:focus {
+    color: #fe5013;
+    background-color: transparent;
+}
+
+.dropdownzz-menu > li > a {
+    clear: both;
+    color: #333;
+    display: block;
+    font-weight: 400;
+    line-height: 1.42857;
+    padding: 5px 20px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.novbar-inverse .novbar-nav .open .dropdownzz-menu > li > a:hover, .novbar-inverse .novbar-nav .open .dropdownzz-menu > li > a:focus {
+    color: #fe5013;
+    background-color: #fff;
+}
+
+
+/**** fix ****/
+.novbar.fixed {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: #fff;
+    z-index: 100;
+}
+
+.fakeNav {
+    height: 1px;
+    overflow: hidden;
+}
+
+.novbar.fixed + .fakeNav {
+    display: block;
+    height: 80px;
+}
+
+.novbar-header {
+    margin-top: 16px;
+}
+
+
+#aboutus.dropdownzz-menu {
+    width: auto;
+    min-width: 80px;
+	right:-82px;
+}
+
+#solo.dropdownzz-menu {
+    width: auto;
+    min-width: 80px;
+}
+
+#ourwork.dropdownzz-menu {
+    width: auto;
+    min-width: 80px;
+    left: -105px;
+    margin-right: -1000px;
+    margin-left: 0;
+    right: auto;
+}
+
+.novbar-nav .dropdownzz-menu {
+    top: 35px;
+    background: none;
+    left: auto;
+    margin-right: 0;
+    margin-left: -1000px;
+    right: 10px;
+}
+
+.novbar-nav .dropdownzz-menu li {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.novbar-nav .dropdownzz-menu > li > a {
+    padding: 3px 5px;
+    background: none;
+}
+
+.novbar-inverse .novbar-nav .open .dropdownzz-menu > li > a:hover, .novbar-nav .dropdownzz-menu > li > a:hover {
+    background: none;
+}
+
+@media (max-width: 767px) {
+   
+    #ourwork.dropdownzz-menu, .novbar-nav .open .dropdownzz-menu {
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        margin-right: 0;
+        margin-left: 0;
+        padding-top: 0;
+    }
+    #ourwork.dropdownzz-menu li a, .novbar-nav .open .dropdownzz-menu li a {
+        padding-top: 0;
+    }
+    .novbar-nav .open .dropdownzz-menu > li > a, .novbar-nav .open .dropdownzz-menu .dropdownzz-header {
+        padding-left: 17px;
+    }
+    .novbar-nav {
+        margin: 7.5px 0;
+    }
+  
+}
+
