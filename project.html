@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="background-image: url(../WebSite/images/back.jpg);">
+<html lang="en">
 <head>
      <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,11 +8,11 @@
 	<!--title-->
 	<title>Diagram Architects UK</title>
 	<!--CSS-->
-    <link href="css/bootstrap.min.projects.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
 	<link href="css/magnific-popup.css" rel="stylesheet">
 	<link href="css/twentytwenty.css" rel="stylesheet" type="text/css" />
-	<link href="css/main-projects.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
 	<link href="css/tr-animation.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
 	
@@ -35,9 +35,9 @@
 		<div class="navbar " role="banner">
 		
 		<a class="navbar-brand" href="index.html">
-						<img class="img-responsive" src="images/logo2.png" alt="" style="
+						<img class="img-responsive" src="images/logo3.png" alt="" style="
     position: absolute;
-    top: 2px;
+    top: 5px;
 ">
 					</a>
 			<div class="container" >
@@ -59,65 +59,65 @@
                     </a>
 
                 </div>  
-                <nav id="main-menu" class="collapse navbar-collapse navbar-right">         
+				
+				<nav id="main-menu" class="collapse navbar-collapse navbar-right">         
                     <ul class="nav navbar-nav">
                         <li class="dropdown active">
-							<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+							<a href="javascript:void(0);" class="dropdown-toggle">
 								ABOUT US
 							</a>
 							<ul class="dropdown-menu">
+								<ul class="list-inline" style="margin-top: 0px;">
 								<li><a href="index.html">TEAM</a></li>
 								<li><a href="index-slider.html">CARRERS</a></li>
 								<li><a href="index-slider2.html">CONTACT</a></li>									
+								</ul>
+								
 							</ul>
 						</li>
 						
 						<li class="dropdown">
-                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle">
                                 WHAT WE DO
                             </a>
                             <ul class="dropdown-menu">
+								<ul class="list-inline" style="margin-top: 0px;">
 								<li><a href="index.html">ARCHITECTURE</a></li>
 								<li><a href="index-slider.html">INTERIOR</a></li>
 								<li><a href="index-slider2.html">CONSTRUCTION</a></li>					
-								<li><a href="index-slider2.html">MANAGEMENT</a></li>												
+								<li><a href="index-slider2.html">MANAGEMENT</a></li>				
+								</ul>		
 							</ul>
                         </li>						
 						
-                        <li class="dropdown">					
-                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                        <li class="dropdown">
+                            <a href="project.html" class="dropdown-toggle">
                                 OUR WORK
                             </a>
                             <ul class="dropdown-menu">
-								<li><a href="index.html">RESIDENTIAL</a></li>
-								<li><a href="index-slider.html">COMMERCIAL</a></li>
-								<li><a href="index-slider2.html">URBAN</a></li>					
-								<li><a href="index-slider2.html">FORNITURE</a></li>												
+								<ul class="list-inline" style="margin-top: 0px;">
+								<li><a href="project.html">RESIDENTIAL</a></li>
+								<li><a href="project.html">COMMERCIAL</a></li>
+								<li><a href="project.html">URBAN</a></li>					
+								<li><a href="project.html">FORNITURE</a></li>				
+								</ul>	
 							</ul>
                         </li>				
 						
 						
 						<li class="dropdown">
-                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle">
                                 SOLOARTE
                             </a>
                             <ul class="dropdown-menu">
-								<li><a href="index.html">MAGAZINE</a></li>		
-								<li><a href="index-slider.html">GALLERY</a></li>											
+								<ul class="list-inline" style="margin-top: 0px;">
+								<li><a href="index.html">MAGAZINE</a></li>
+								<li><a href="index-slider.html">GALLERY</a></li>			
+								</ul>
 							</ul>
                         </li>				
                     </ul>         
                 </nav>
-                <!--div class="search-icon">
-                    <span><i class="fa fa-search"></i></span>
-                </div-->                
-            </div>
-			<!--div class="search">
-				<form role="form">
-				<input type="text" class="search-form" autocomplete="off" placeholder="Write something and press enter">
-				<span class="search-close"><i class="fa fa-times"></i></span>
-				</form>
-			</div-->
         </div>
     </header><!--/#navigation--> 
 
@@ -126,11 +126,7 @@
 		<div id="project-list" class="padding">
 			<div class="container">
 			<br>
-				<div class=" section-title">
-					
-					<h2>Projects List</h2>
-				</div>
-				
+			
 				<div class="project-filter">
 					<ul class="list-inline">
 						<li><a class="active" href="#" data-filter="*">All</a></li>
@@ -146,84 +142,133 @@
 
 				<div id="projects" class="recent-projects">
 					<div class="all-projects">
-						<div class="project-content design plumbing">
-							<div class="project-title">
-								<h3>Battersea</h3>
+						<div class="project-content design plumbing">					
+							<a class="popup-iframe mfp-iframe" href="details.html" style="position:relative; left:-50px;">
+							 
+								<img class="img-responsive" src="images/diagram/work-img4.png" alt="" />
+								
+							</a>			
+							
+							<div style="position:absolute;top: 95px;right: 0;left: 0;/* width: 88px; */height: 16px;z-index:2;background-color: rgba(115, 109, 109, 0.7);font-size:100%;">
+								<b style="position: absolute;color: white;font-size: smaller;padding-left: 10px;/* padding-bottom: 5px; */font-weight: 300;">BATTERSEA</b>
 							</div>
 							
-							
-											
 						</div>
 						<div class="project-content building design">
-							<div class="project-title">
-								<h3>Battersea</h3>
+						
+							<a class="popup-iframe mfp-iframe" href="details.html" style="position:relative; left:-50px;">
+							
+								<img class="img-responsive" src="images/diagram/work-img5.png" alt="" />
 								
+							</a>	
+
+							<div style="position:absolute;top: 95px;right: 0;left: 0;/* width: 88px; */height: 16px;z-index:2;background-color: rgba(115, 109, 109, 0.7);font-size:100%;">
+								<b style="position: absolute;color: white;font-size: smaller;padding-left: 10px;/* padding-bottom: 5px; */font-weight: 300;">BATTERSEA</b>
 							</div>
-							<a class="popup-iframe mfp-iframe" href="details.html" style="position:relative; left:-50px;"><img class="img-responsive" src="images/project/battersea.png" alt="" /></a>
 							
 						</div>
 						<div class="project-content building painting plumbing">
-							<div class="project-title">
-								<h3>Battersea</h3>
+							
+							<a class="popup-iframe mfp-iframe" href="details.html" style="position:relative; left:-50px;">
+							
+								<img class="img-responsive" src="images/diagram/work-img6.png" alt="" />
 								
+							</a>
+							
+							<div style="position:absolute;top: 95px;right: 0;left: 0;/* width: 88px; */height: 16px;z-index:2;background-color: rgba(115, 109, 109, 0.7);font-size:100%;">
+								<b style="position: absolute;color: white;font-size: smaller;padding-left: 10px;/* padding-bottom: 5px; */font-weight: 300;">BATTERSEA</b>
 							</div>
-							<a href="images/project/1.jpg" class="image-link" style="position:relative; left:-50px;"><img class="img-responsive" src="images/project/battersea.png" alt="" /></a>
 							
 						</div>
 						<div class="project-content painting plumbing">
-							<div class="project-title">
-								<h3>Battersea</h3>
+							
+							<a class="popup-iframe mfp-iframe" href="details.html" style="position:relative; left:-50px;">
+							
+								<img class="img-responsive" src="images/diagram/work-img7.png" alt="" />
 								
+							</a>
+							
+							<div style="position:absolute;top: 95px;right: 0;left: 0;/* width: 88px; */height: 16px;z-index:2;background-color: rgba(115, 109, 109, 0.7);font-size:100%;">
+								<b style="position: absolute;color: white;font-size: smaller;padding-left: 10px;/* padding-bottom: 5px; */font-weight: 300;">BATTERSEA</b>
 							</div>
-							<a href="images/project/1.jpg" class="image-link" style="position:relative; left:-50px;"><img class="img-responsive" src="images/project/battersea.png" alt="" /></a>
 							
 						</div>
 						<div class="project-content design painting plumbing">
-							<div class="project-title">
-								<h3>Battersea</h3>
+							
+							<a class="popup-iframe mfp-iframe" href="details.html" style="position:relative; left:-50px;">
+							
+								<img class="img-responsive" src="images/diagram/work-img8.png" alt="" />
 								
+							</a>
+							
+							<div style="position:absolute;top: 95px;right: 0;left: 0;/* width: 88px; */height: 16px;z-index:2;background-color: rgba(115, 109, 109, 0.7);font-size:100%;">
+								<b style="position: absolute;color: white;font-size: smaller;padding-left: 10px;/* padding-bottom: 5px; */font-weight: 300;">BATTERSEA</b>
 							</div>
-							<a href="images/project/1.jpg" class="image-link" style="position:relative; left:-50px;"><img class="img-responsive" src="images/project/battersea.png" alt="" /></a>
 							
 						</div>
 						<div class="project-content design plumbing">
-							<div class="project-title">
-								<h3>Battersea</h3>
+							
+							<a class="popup-iframe mfp-iframe" href="details.html" style="position:relative; left:-50px;">
+							
+								<img class="img-responsive" src="images/diagram/work-img9.png" alt="" />
 								
+							</a>
+							
+							<div style="position:absolute;top: 95px;right: 0;left: 0;/* width: 88px; */height: 16px;z-index:2;background-color: rgba(115, 109, 109, 0.7);font-size:100%;">
+								<b style="position: absolute;color: white;font-size: smaller;padding-left: 10px;/* padding-bottom: 5px; */font-weight: 300;">BATTERSEA</b>
 							</div>
-							<a href="images/project/1.jpg" class="image-link" style="position:relative; left:-50px;"><img class="img-responsive" src="images/project/battersea.png" alt="" /></a>
 							
 						</div>
 						<div class="project-content design painting plumbing">
-							<div class="project-title">
-								<h3>Battersea</h3>
+							
+							<a class="popup-iframe mfp-iframe" href="details.html" style="position:relative; left:-50px;">
+							
+								<img class="img-responsive" src="images/diagram/work-img4.png" alt="" />
 								
+							</a>
+							
+							<div style="position:absolute;top: 95px;right: 0;left: 0;/* width: 88px; */height: 16px;z-index:2;background-color: rgba(115, 109, 109, 0.7);font-size:100%;">
+								<b style="position: absolute;color: white;font-size: smaller;padding-left: 10px;/* padding-bottom: 5px; */font-weight: 300;">BATTERSEA</b>
 							</div>
-							<a href="images/project/1.jpg" class="image-link" style="position:relative; left:-50px;"><img class="img-responsive" src="images/project/battersea.png" alt="" /></a>
 							
 						</div>
 						<div class="project-content building design painting">
-							<div class="project-title">
-								<h3>Battersea</h3>
+							
+							<a class="popup-iframe mfp-iframe" href="details.html" style="position:relative; left:-50px;">
+							
+								<img class="img-responsive" src="images/diagram/work-img5.png" alt="" />
 								
+							</a>
+							
+							<div style="position:absolute;top: 95px;right: 0;left: 0;/* width: 88px; */height: 16px;z-index:2;background-color: rgba(115, 109, 109, 0.7);font-size:100%;">
+								<b style="position: absolute;color: white;font-size: smaller;padding-left: 10px;/* padding-bottom: 5px; */font-weight: 300;">BATTERSEA</b>
 							</div>
-							<a href="images/project/1.jpg" class="image-link" style="position:relative; left:-50px;"><img class="img-responsive" src="images/project/battersea.png" alt="" /></a>
 							
 						</div>
 						<div class="project-content design painting">
-							<div class="project-title">
-								<h3>Battersea</h3>
+							
+							<a class="popup-iframe mfp-iframe" href="details.html" style="position:relative; left:-50px;">
+							
+								<img class="img-responsive" src="images/diagram/work-img6.png" alt="" />
 								
+							</a>
+							
+							<div style="position:absolute;top: 95px;right: 0;left: 0;/* width: 88px; */height: 16px;z-index:2;background-color: rgba(115, 109, 109, 0.7);font-size:100%;">
+								<b style="position: absolute;color: white;font-size: smaller;padding-left: 10px;/* padding-bottom: 5px; */font-weight: 300;">BATTERSEA</b>
 							</div>
-							<a href="images/project/1.jpg" class="image-link" style="position:relative; left:-50px;"><img class="img-responsive" src="images/project/battersea.png" alt="" /></a>
 							
 						</div>
 						<div class="project-content building">
-							<div class="project-title">
-								<h3>Battersea</h3>
+							
+							<a class="popup-iframe mfp-iframe" href="details.html" style="position:relative; left:-50px;">
+							
+								<img class="img-responsive" src="images/diagram/work-img7.png" alt="" />
 								
+							</a>
+							
+							<div style="position:absolute;top: 95px;right: 0;left: 0;/* width: 88px; */height: 16px;z-index:2;background-color: rgba(115, 109, 109, 0.7);font-size:100%;">
+								<b style="position: absolute;color: white;font-size: smaller;padding-left: 10px;/* padding-bottom: 5px; */font-weight: 300;">BATTERSEA</b>
 							</div>
-							<a href="images/project/1.jpg" class="image-link" style="position:relative; left:-50px;"><img class="img-responsive" src="images/project/battersea.png" alt="" /></a>
 							
 						</div>
 					</div>

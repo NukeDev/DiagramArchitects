@@ -97,7 +97,7 @@ h6 {
 }
 
 .padding {
-	padding: 80px 0;
+	padding: 150px 0;
 }
 
 .section-title {
@@ -289,8 +289,9 @@ textarea.form-control {
 /*top-bar*/
 .top-bar {
 	position: absolute;
-	right: 15px;
-	top: 11px;
+    right: -870px;
+    top: -4px;
+
 }
 
 .top-bar .social-icons li a {
@@ -523,7 +524,7 @@ a:visited {
 	#navigation .navbar-nav .open .dropdown-menu > .active > a,
 	#navigation .navbar-nav .open .dropdown-menu > .active > a:hover,
 	#navigation .navbar-nav .open .dropdown-menu > .active > a:focus {
-		background-color: #A81C47;
+		background-color: #ff5016;
 	}
 	
 	#navigation .navbar-nav .open .dropdown-menu > .disabled > a,
@@ -578,7 +579,7 @@ a:visited {
 	}
 	
 	#navigation .navbar-nav > li > a:hover {
-		color: #A81C47;
+		color: #ff5016;
 	}
 	
 	#page #navigation .navbar-nav > li > a:hover,
@@ -588,8 +589,8 @@ a:visited {
 	#page #navigation .navbar .navbar-right .dropdown-menu li a:hover,
 	#navigation .navbar-fixed-top .navbar-right .dropdown-menu li.active > a,
 	#page #navigation .navbar .navbar-right .dropdown-menu li.active > a {
-		color: #FFF;
-		background-color: #A81C47;
+		
+		color: #ff5016;
 	}
 	
 	#navigation .navbar-fixed-top .navbar-right li.active > a {
@@ -648,23 +649,21 @@ a:visited {
 		min-width: 20px;
 		border-radius: 0;
 		z-index: 9999 !important;
-		margin-top: -2px !important;
+		margin-top: 12px !important;
 		
 	}
 	
 	#navigation .dropdown-menu li a {
-		color: #A81C47;
+		color: #ff5016;
 		font-size: 13px;
 		padding: 12px 17px;
-		border-bottom: solid 1px #F1F1F1;
 		background-color: transparent;
 	}
 	
 	#navigation .dropdown-menu .active > a,
 	#navigation .dropdown-menu li > a:hover {
 		filter: none !important;
-		background-color: #A81C47 !important;
-		border-bottom: solid 1px #A81C47;
+		color: #ff5016 !important;
 		-webkit-transition: all 0.1s ease-in-out;
 		-moz-transition: all 0.1s ease-in-out;
 		-o-transition: all 0.1s ease-in-out;
@@ -873,7 +872,7 @@ a:visited {
 	font-size: 35px;
 	text-transform: uppercase;
 	background-color: #FF5016;
-	color: #A81C47;
+	color: #ff5016;
 	margin-bottom: 0;
 	font-weight: 908;
 	display: inline-block;
@@ -1406,8 +1405,6 @@ a:visited {
 #recent-projects,
 #project-list,
 #architect {
-	background-color: rgb(152, 152, 152);
-	background-image: url(../images/project/project-bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -2486,7 +2483,7 @@ a:visited {
 .project-filter ul li a.active,
 .architect-filter ul li a:hover,
 .architect-filter ul li a.active {
-	color: #EB444A;
+	color: #ff5016;
 }
 
 /* Start: Recommended Isotope styles */
@@ -3358,7 +3355,7 @@ img.mfp-img {
 	max-width: 480px;
 	margin-top: 30px;
 	display: inline-block;
-}
+} 
 
 .error-page-content img {
 	display: inline-block;

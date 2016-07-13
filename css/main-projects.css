@@ -34,8 +34,19 @@ body {
 	color: #0F0F0F;
 	background-color: #FFF;
 }
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
 
 ul {
+	
 	list-style: none;
 	margin: 0;
 	padding: 0;
